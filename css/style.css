@@ -149,6 +149,7 @@ button:hover {
   width: 40%;
   height: 100%;
   padding: 32px 0;
+  border-left: 0.5px solid gray;
 }
 
 .sub-articles img {
@@ -170,3 +171,38 @@ button:hover {
   height: auto;
   padding: 16px;
 }
+
+.content {
+  width: 65%;
+  height: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+
+.news p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+  opacity: .6;
+}
+
+.news a {
+  color: lightblue;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.news a:hover {
+  color: black;
+  transition: color 500ms linear 100ms;
+}
+
+#orientation {
+  border-bottom: double gray;
+}
+
+#lecture {
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+/* Courses */
