@@ -203,6 +203,53 @@ button:hover {
 
 #lecture {
   background-color: hsla(0, 0%, 0%, 0.2);
+  margin-bottom: 32px;
 }
 
 /* Courses */
+
+.courses {
+  text-align: center;
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+.courses h1 {
+  padding: 32px 0 0 0;
+}
+
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 72px;
+}
+
+.items div {
+  margin: 16px;
+  text-align: left;
+  background-color: white;
+  width: 20em;
+  height: 21em;
+  line-height: 1.2em;
+}
+
+.items h2 {
+  padding: 16px 16px 8px 16px;
+}
+
+.items h3 {
+  text-transform: uppercase;
+}
+
+.items h3,
+.items p {
+  padding: 8px 16px;
+  font-size: 1.1em;
+  opacity: .5;
+}
+
+.items div img {
+  width: 20em;
+  height: auto;
+}
