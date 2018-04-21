@@ -31,6 +31,7 @@ header {
   align-items: center;
   height: 64px;
 }
+
 header div {
   display: flex;
   justify-content: flex-start;
@@ -42,6 +43,10 @@ header div {
 header img {
   padding-left: 24px;
   height: 48px;
+}
+
+.mobile {
+  display: none;
 }
 
 #colmar {
@@ -72,6 +77,21 @@ header li {
   padding-right: 16px;
 }
 
+@media only screen and (max-width: 790px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .mobile img {
+    height: 36px;
+  }
+}
+
 /* Banner Section */
 
 .banner {
@@ -79,12 +99,12 @@ header li {
   background-color: hsla(0, 0%, 0%, 0.2);
 }
 
-div.image {
+.image {
   width: 60%;
   padding: 32px 32px;
 }
 
-div.image img {
+.image img {
   max-width: 100%;
   max-height: 100%;
 }
@@ -122,6 +142,42 @@ button:hover {
   color: black;
   background-color: white;
   transition: color 500ms linear 100ms;
+}
+
+@media only screen and (max-width: 790px) {
+  .banner {
+    flex-flow: column wrap;
+  }
+
+  .image {
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner-info {
+    width: 100%;
+  }
+
+  .banner-info h1 {
+    padding: 0;
+  }
+
+  .banner-info h2 {
+    padding: 32px 0 24px 0;
+  }
+
+  .banner-info div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 32px 16px;
+  }
+
+  button {
+    width: 100%;
+  }
 }
 
 /* News Section */
