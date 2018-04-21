@@ -15,6 +15,13 @@ h2 {
   opacity: .7;
 }
 
+h3,
+p,
+li {
+  line-height: 1.2em;
+  font-size: 1.1em;
+  opacity: .5;
+}
 
 
 /* Header and Nav*/
@@ -180,12 +187,6 @@ button:hover {
   justify-content: space-evenly;
 }
 
-.news p {
-  font-family: Helvetica, sans-serif;
-  font-size: 1.1em;
-  opacity: .6;
-}
-
 .news a {
   color: lightblue;
   text-decoration: none;
@@ -245,11 +246,87 @@ button:hover {
 .items h3,
 .items p {
   padding: 8px 16px;
-  font-size: 1.1em;
-  opacity: .5;
 }
 
 .items div img {
   width: 20em;
   height: auto;
+}
+
+/* Thesis Exhibit */
+
+.exhibit {
+  padding-bottom: 32px;
+}
+
+.exhibit h1 {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.exhibit-content {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main-exhibit {
+  width: 60%;
+  padding: 0 24px;
+}
+
+.main-exhibit video {
+  width: 100%;
+}
+
+.main-exhibit h2 {
+  padding: 24px 0;
+}
+
+.sub-exhibit {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 40%;
+  padding-right: 8px;
+}
+
+.item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.item img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.item div {
+  width: 65%;
+}
+
+.sub-exhibit h2 {
+  padding: 24px 0;
+}
+
+#fisma {
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 5em;
+}
+footer p,
+footer ul {
+  padding: 16px 24px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 125px;
 }
