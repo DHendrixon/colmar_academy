@@ -515,3 +515,16 @@ footer ul {
   justify-content: space-between;
   width: 125px;
 }
+
+@media only screen and (max-width: 790px) {
+
+  footer ul {
+    display: none;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+    height: 5em;
+  }
+}
