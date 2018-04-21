@@ -234,6 +234,10 @@ button:hover {
   padding: 16px;
 }
 
+.mobileimg {
+  display: none;
+}
+
 .content {
   width: 65%;
   height: 50%;
@@ -307,6 +311,7 @@ button:hover {
   .mobileimg {
     width: auto;
     height: auto;
+    display: block;
   }
 
   .content {
