@@ -473,6 +473,25 @@ button:hover {
   background-color: hsla(0, 0%, 0%, 0.2);
 }
 
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 790px) {
+
+  .exhibit-content {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile video {
+    width: 100%;
+  }
+}
+
 /* Footer */
 
 footer {
