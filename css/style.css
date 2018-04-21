@@ -380,6 +380,39 @@ button:hover {
   height: auto;
 }
 
+.mobile-items {
+  display: none;
+}
+
+@media only screen and (max-width: 790px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .courses {
+    background-color: white;
+    padding: 32px 16px;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+  }
+
+  .mobile-items {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  .courses h1 {
+    padding: 0 0 32px 0;
+  }
+
+  .mobile-items button {
+    text-align: left;
+    padding: 16px;
+  }
+
+}
+
 /* Thesis Exhibit */
 
 .exhibit {
