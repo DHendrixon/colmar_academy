@@ -46,7 +46,7 @@ header img {
 }
 
 .mobile {
-  display: none;
+ display: none;
 }
 
 #colmar {
@@ -85,6 +85,7 @@ header li {
 
   .mobile {
     display: flex;
+    justify-content: space-around;
   }
 
   .mobile img {
@@ -473,7 +474,7 @@ button:hover {
   background-color: hsla(0, 0%, 0%, 0.2);
 }
 
-.mobile {
+.mobile-video {
   display: none;
 }
 
