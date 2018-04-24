@@ -352,6 +352,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 32px 72px;
+  max-width: 1250px;
 }
 
 .items div {
